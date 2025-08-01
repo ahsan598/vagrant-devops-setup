@@ -1,7 +1,7 @@
 # 💻 Vagrant-Based DevOps Lab
 
 <!-- Project Identity Badges -->
-![type: infrastructure](https://img.shields.io/badge/type-infrastructure-steelblue?style=for-the-badge)
+![type: infrastructure](https://img.shields.io/badge/type-devops--vm-steelblue?style=for-the-badge)
 ![scope: local lab](https://img.shields.io/badge/scope-local--lab-darkgreen?style=for-the-badge)
 ![tech: vagrant](https://img.shields.io/badge/tech-vagrant-orange?style=for-the-badge)
 
