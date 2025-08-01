@@ -416,3 +416,69 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# ==== Vagrant ====
+.vagrant/
+*.box
+
+#  ==== VirtualBox ====
+*.vdi
+*.vbox
+*.vbox-prev
+*.vmdk
+
+# Virtual machine disk images or swap files
+*.log
+*.swp
+*.swo
+
+# SSH key files (if any)
+*.pem
+*.key
+*.pub
+
+# IDEs/editors
+.idea/
+.vscode/
+*.code-workspace
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Python (if using Ansible or scripts)
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+
+# Ansible roles (if using Galaxy installs)
+roles/*/
+!roles/README.md
+!roles/.gitkeep
+
+# Terraform (just in case)
+.terraform/
+*.tfstate*
+crash.log
+
+# Misc
+*.bak
+*.tmp
+*~
+
+# Node/npm (if any web CI/CD stuff uses it)
+node_modules/
+npm-debug.log
+
+# Archive and output
+*.tar
+*.gz
+*.zip
+*.7z
+*.iso
+
+# Kubernetes (if you're storing configs or kubeadm outputs)
+kubeconfig
+*.yaml~
+*.yml~
