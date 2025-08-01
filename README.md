@@ -68,8 +68,34 @@ vagrant destroy -f
 - Practice infrastructure automation in a safe, offline setup
 
 
-### 📌 Notes
+### 📌 Key Points
 
 - All configurations are local-only and offline-friendly
 - Not intended for production use
 - `Vagrantfile` reads settings from `config.yaml` dynamically
+
+
+---
+
+
+### 📦 Popular Vagrant Boxes (Base Images)
+
+| Box Name                    | OS / Distro          | Package Manager | Default User | Notes                               |
+| --------------------------- | -------------------- | --------------- | ------------ | ----------------------------------- |
+| `ubuntu/jammy64`            | Ubuntu 22.04 LTS     | `apt`           | `vagrant`    | Most used LTS, stable for servers   |
+| `ubuntu/noble64`            | Ubuntu 24.04 LTS     | `apt`           | `vagrant`    | Latest Ubuntu LTS (April 2024)      |
+| `debian/bookworm64`         | Debian 12            | `apt`           | `vagrant`    | Stable, minimal base                |
+| `rockylinux/9`              | Rocky Linux 9        | `dnf`           | `vagrant`    | RHEL-based, enterprise-grade        |
+| `almalinux/9`               | AlmaLinux 9          | `dnf`           | `vagrant`    | RHEL alternative, great for Ansible |
+| `generic/centos9s`          | CentOS Stream 9      | `dnf`           | `vagrant`    | Continuously updated, RHEL-ish      |
+| `fedora/40-cloud-base`      | Fedora 40            | `dnf`           | `vagrant`    | Bleeding edge, good for testing     |
+| `opensuse/Leap-15.5.x86_64` | openSUSE Leap 15.5   | `zypper`        | `vagrant`    | Good for SUSE environments          |
+| `archlinux/archlinux`       | Arch Linux (rolling) | `pacman`        | `vagrant`    | Rolling release, power users        |
+| `kali-linux/rolling`        | Kali Linux (2025)    | `apt`           | `vagrant`    | For security testing labs           |
+
+
+### 🧾 Notes:
+
+- You can search more at: [Vagrant Cloud](https://portal.cloud.hashicorp.com/vagrant/discover)
+- Default provider is usually `virtualbox`, but many also support `libvirt` and `vmware_desktop`
+- You can use `vagrant init <box-name>` and then `vagrant up` to try them out
