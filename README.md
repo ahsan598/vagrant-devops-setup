@@ -99,3 +99,14 @@ vagrant destroy -f
 - You can search more at: [Vagrant Cloud](https://portal.cloud.hashicorp.com/vagrant/discover)
 - Default provider is usually `virtualbox`, but many also support `libvirt` and `vmware_desktop`
 - You can use `vagrant init <box-name>` and then `vagrant up` to try them out
+
+
+---
+
+✅ Top Picks (If You Just Want 2–3 for Learning):
+
+| Purpose                  | Recommended Box                      |
+| ------------------------ | ------------------------------------ |
+| General purpose (DevOps) | `ubuntu/jammy64` or `ubuntu/noble64` |
+| RHEL-based learning      | `rockylinux/9` or `almalinux/9`      |
+| Lightweight + stable     | `debian/bookworm64`                  |
