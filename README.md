@@ -1,10 +1,9 @@
 # 💻 Vagrant-Based DevOps Lab
 
 <!-- Project Identity Badges -->
-![GitHub repo size](https://img.shields.io/github/repo-size/ahsan598/vagrant-devops-setup?style=for-the-badge)
-![type: infrastructure](https://img.shields.io/badge/type-infrastructure-blue?style=for-the-badge)
-![scope: local lab](https://img.shields.io/badge/scope-local--lab-brightgreen?style=for-the-badge)
-![tech: vagrant](https://img.shields.io/badge/tech-vagrant-2ea44f?style=for-the-badge)
+![type: infrastructure](https://img.shields.io/badge/type-infrastructure-steelblue?style=for-the-badge)
+![scope: local lab](https://img.shields.io/badge/scope-local--lab-darkgreen?style=for-the-badge)
+![tech: vagrant](https://img.shields.io/badge/tech-vagrant-orange?style=for-the-badge)
 
 
 This repository provides a modular collection of Vagrant environments designed to spin up local virtual machines for DevOps tooling, automation workflows, and hands-on infrastructure practice.
