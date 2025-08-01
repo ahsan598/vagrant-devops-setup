@@ -18,54 +18,54 @@ Included environments:
 
 ---
 
-### 🧰 Requirements
+### ⚙️ Requirements
 
-Install the following tools before getting started:
+Install these tools before using the setup:
 
-- [Vagrant](https://www.vagrantup.com/downloads) – for VM provisioning
-- [VirtualBox](https://www.virtualbox.org/wiki/Downloads) – as the VM provider
-- Code Editor or Terminal – (e.g., VS Code, Git Bash, or a native Linux terminal)
-
-
-### 🔧 Key Features
-
-- Single and multi-VM setups via `Vagrantfile`
-- Customizable CPU, Memory, IP, and Port forwarding
-- Basic provisioning using Bash scripts
-- Ideal for simulating local DevOps clusters
-- Quick teardown and rebuilds
+- [Vagrant](https://www.vagrantup.com/downloads)
+- [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+- Terminal or code editor (e.g., VS Code, Git Bash, native shell)
 
 
-### 📂 Project Structure
+### 🔑 Features
+
+- Single and multi-VM environments using `Vagrantfile`
+- Customizable CPU, memory, IP, and ports
+- Provisioning with Bash scripts
+- Quick teardown and rebuild for iterative testing
+- Ideal for local DevOps simulations and sandboxing
+
+
+### 📁 Directory Overview
 
 ```sh
 vagrant-vms/
-├── base-vm/                  # Single minimal reusable VM (Ubuntu)
-├── cicd-pipeline-setup/      # Multi-VM: Jenkins + agents + (can reuse 1 VM for app/db tests)
-├── ansible-ready-vm/         # Only if you're testing Ansible
-├── k8s-cluster/              # Your orchestration playground
+├── base-vm/               # Minimal reusable Ubuntu VM
+├── cicd-pipeline-setup/   # Jenkins + agents (can reuse base VM)
+├── ansible-ready-vm/      # For testing Ansible locally
+├── k8s-cluster/           # Multi-node Kubernetes playground
 ```
 
 
-###  🚀 Quick Usage
+###  🚀 Usage (Basic Commands)
 
 ```sh
-# Start VM(s)
+# Start all VMs in the current directory
 vagrant up
 
 # SSH into a specific VM
 vagrant ssh <vm-name>
 
-# Tear down
+# Destroy VM(s)
 vagrant destroy -f
 ```
 
 
 ### 💡 Use Cases
 
-- Practice with tools like Jenkins, Ansible, etc.
-- Simulate multi-node infra for CI/CD or Kubernetes
-- Run experiments in an isolated local sandbox
+- Hands-on with Jenkins, Kubernetes, and Ansible
+- Simulate CI/CD pipelines and infrastructure locally
+- Practice infrastructure automation in a safe, offline setup
 
 
 ### 📌 Notes
