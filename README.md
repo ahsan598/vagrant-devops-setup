@@ -2,8 +2,8 @@
 
 <!-- Project Identity Badges -->
 ![type: infrastructure](https://img.shields.io/badge/type-vagrant--vm-steelblue?style=for-the-badge&logo=vagrant)
-![scope: local lab](https://img.shields.io/badge/scope-local--lab-yellow?style=for-the-badge)
-![tech: devops](https://img.shields.io/badge/tech-devops-purple?style=for-the-badge&logo=Infinity-loop)
+![scope: local lab](https://img.shields.io/badge/scope-local--lab-darkgreen?style=for-the-badge)
+![type: devops](https://img.shields.io/badge/type-devops--vm-orange?style=for-the-badge&logo=azure-devops)
 
 
 This repository provides a **modular collection of Vagrant environments** designed to spin up local virtual machines for DevOps tooling, automation workflows, and hands-on infrastructure practice.
