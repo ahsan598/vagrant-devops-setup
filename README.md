@@ -42,8 +42,8 @@ Install these tools before using the setup:
 vagrant-vms/
 ├── base-vm/                    # Minimal reusable Ubuntu VM
 ├── cicd-pipeline-setup/        # Jenkins + agents (can reuse base VM)
-├── ansible-ready-vm/           # For testing Ansible locally
 ├── kubeadm-cluster-setup/      # Multi-node Kubernetes playground
+├── vagrant-ansible-setup/      # For testing Ansible locally
 ```
 
 
