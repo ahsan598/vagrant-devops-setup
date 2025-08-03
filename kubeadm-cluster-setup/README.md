@@ -23,7 +23,6 @@ It’s ideal for learning and practicing **Kubernetes the hard way**—hands-on 
 ### 📚 Follow manual setup instructions here:
 
 - [Kubernetes the Hard Way (by Kelsey Hightower)](https://github.com/kelseyhightower/kubernetes-the-hard-way)
-- [KodeKloud Kubeadm Clusters Repo](https://github.com/kodekloudhub/certified-kubernetes-administrator-course/tree/master/kubeadm-clusters)
 - [Kubeadm Official Docs](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/)
 
 
