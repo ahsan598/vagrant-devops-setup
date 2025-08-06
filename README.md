@@ -1,9 +1,9 @@
 # 💻 Vagrant-Based DevOps Lab
 
 <!-- Project Identity Badges -->
-![type: infrastructure](https://img.shields.io/badge/type-vagrant--vm-orange?style=for-the-badge&logo=vagrant)
+<!-- ![type: infrastructure](https://img.shields.io/badge/type-vagrant--vm-orange?style=for-the-badge&logo=vagrant)
 ![scope: local lab](https://img.shields.io/badge/scope-local--lab-darkgreen?style=for-the-badge)
-![tech: devops](https://img.shields.io/badge/tech-devops-steelblue?style=for-the-badge)
+![tech: devops](https://img.shields.io/badge/tech-devops-steelblue?style=for-the-badge) -->
 
 
 This repository provides a **modular collection of Vagrant environments** designed to spin up local virtual machines for DevOps tooling, automation workflows, and hands-on infrastructure practice.
@@ -29,9 +29,9 @@ Install these tools before using the setup:
 
 ### 🔑 Features
 
-- Single and multi-VM environments using `Vagrantfile`
-- Customizable CPU, memory, IP, and ports
-- Provisioning with Bash scripts
+- Single and multi-VM environments using **Vagrantfile**
+- Customizable **CPU, Memory, IP, and Ports**
+- Provisioning with **Bash scripts**
 - Quick teardown and rebuild for iterative testing
 - Ideal for local DevOps simulations and sandboxing
 
@@ -72,7 +72,7 @@ vagrant destroy -f
 
 - All configurations are local-only and offline-friendly
 - Not intended for production use
-- `Vagrantfile` reads settings from `config.yaml` dynamically
+- **Vagrantfile** reads settings from `config.yaml` dynamically
 
 
 ---
@@ -97,7 +97,7 @@ vagrant destroy -f
 ### 🧾 Notes:
 
 - You can search more at: [Vagrant Cloud](https://portal.cloud.hashicorp.com/vagrant/discover)
-- Default provider is usually `virtualbox`, but many also support `libvirt` and `vmware_desktop`
+- Default provider is usually **Virtualbox**, but many also support [**libvirt**](https://libvirt.org/drvvmware.html) and [**vmware_desktop**](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion)
 - You can use `vagrant init <box-name>` and then `vagrant up` to try them out
 
 

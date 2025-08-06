@@ -28,6 +28,11 @@ Vagrant.configure("2") do |config|
       vb.cpus = config_data['cpus']
     end
 
+      # Synced folder (optional)
+      if settings['synced_folder']
+        vm.vm.synced_folder settings['synced_folder']['host'], settings['synced_folder']['guest']
+      end
+
     # Shell Provisioner
     vm.vm.provision "shell", inline: <<-SHELL
       yum update -y

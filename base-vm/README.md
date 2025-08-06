@@ -4,13 +4,6 @@ This setup provides a lightweight **Vagrant environment** to spin up a single vi
 
 ---
 
-### 🔧 Features
-
-- Ubuntu 24.04 LTS (can be customized)
-- SSH access
-- Easily configurable resources (CPU, RAM, IP)
-- Shared folder support
-
 ### ⚙️ Configuration
 
 All VM settings are defined in `config.yaml`:
@@ -21,13 +14,20 @@ All VM settings are defined in `config.yaml`:
 
 > You can easily modify `config.yaml` before running `vagrant up`.
 
+
+### 🔧 Features
+
+- Customized OS Distro
+- SSH access
+- Easily configurable resources (CPU, RAM, IP)
+- Shared folder support
+
+
 ### 💡 Notes
 - Default box is Ubuntu 24.04 LTS (changeable in config)
 - Use `chmod +x provision.sh` before running if needed
 - Provisioning script is optional and can be skipped via config
 
-
----
 
 ### 📁 Quick Commands
 
